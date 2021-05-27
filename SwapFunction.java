@@ -17,7 +17,7 @@ public class SwapFunction {
         int[]arr= {a,b};
         System.out.println("Before swapping: a="+a+" b="+b);
         swap(arr);
-        System.out.println("After swapping: a="+b+" b="+a);
+        System.out.println("After swapping: a="+arr[0]+" b="+arr[1]);
 
 	}
 
